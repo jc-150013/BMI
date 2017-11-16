@@ -10,14 +10,14 @@
             
             <Entry Text="160"
                 HorizontalOptions="Center" 
-                   x:Name="Height"/>
+                   x:Name="height"/>
             
             <Label Text="現在の体重をkgで入力してください"
                 HorizontalOptions="Center" />
             
             <Entry Text="50"
                 HorizontalOptions="Center" 
-                   x:Name="Weight"/>
+                   x:Name="weight"/>
             
             <Button Text="BMI計算"
                 HorizontalOptions="Center"
