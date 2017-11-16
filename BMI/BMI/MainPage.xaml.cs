@@ -16,11 +16,11 @@ namespace BMI
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            Double h = Double.Parse(height.Text);
-            Double w = Double.Parse(weight.Text);
+            Double h = Double.parse(height.Text);
+            Double w = Double.parse(weight.Text);
 
-            DisplayAlert("伸長",h.ToString(), "OK");
-            DisplayAlert("体重",w.ToString(), "OK");
+            DisplayAlert("伸長",h.toString(), "OK");
+            DisplayAlert("体重",w.toString(), "OK");
             if(h>=3)
             {
                 h /= 100;
